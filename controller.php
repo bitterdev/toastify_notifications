@@ -11,7 +11,7 @@ use Symfony\Component\EventDispatcher\EventDispatcherInterface;
 class Controller extends Package
 {
     protected string $pkgHandle = 'toastify_notifications';
-    protected string $pkgVersion = '0.0.2';
+    protected string $pkgVersion = '0.0.3';
     protected $appVersionRequired = '9.0.0';
 
     public function getPackageDescription(): string
@@ -21,7 +21,7 @@ class Controller extends Package
 
     public function getPackageName(): string
     {
-        return t('Toastify Notifications');
+        return t('Simple Toastify Notifications');
     }
 
     public function on_start()
